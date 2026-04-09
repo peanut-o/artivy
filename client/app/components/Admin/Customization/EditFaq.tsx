@@ -28,7 +28,7 @@ const EditFaq = (props: Props) => {
         toast.success("FAQ updated successfully");
     }
 
-    if(error){S
+    if(error){
         if ("data" in error) {
             const errorData = error as any;
             toast.error(errorData?.data?.message);
