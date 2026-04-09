@@ -206,8 +206,6 @@ const AllInvoices = ({ isDashboard }: Props) => {
                 columnHeaderFiltersLabel: "显示筛选",
                 columnHeaderSortIconLabel: "排序",
                 footerRowPerPage: "每页行数:",
-                footerTotalRows: (count) => `共 ${count} 行`,
-                footerTotalVisibleRows: (visibleCount, totalCount) => `${visibleCount} / ${totalCount}`,
                 checkboxSelectionHeaderName: "复选框选择",
                 checkboxSelectionSelectAllRows: "选择全部行",
                 checkboxSelectionUnselectAllRows: "取消选择全部行",
